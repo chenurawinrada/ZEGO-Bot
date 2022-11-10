@@ -41,7 +41,7 @@ def check_for_update():
     try:
         print("Checking for updates")
         if check_connection(timeout=1):
-            url = 'https://github.com/chenurawinrada/ZEGO-Bot/blob/main/metadata.json'
+            url = 'https://raw.githubusercontent.com/chenurawinrada/ZEGO-Bot/main/metadata.json'
             rqt = requests.get(url, timeout=5)
             meta_sc = rqt.status_code
             if meta_sc == 200:
