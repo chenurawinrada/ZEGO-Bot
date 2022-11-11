@@ -1,6 +1,11 @@
 # ZEGO-Bot
 Simple bot in cmd mode
 
+Requrements,
+1) hashlib
+2) colorama
+3) maskpass
+4) pyttsx3 (May not work in python3.7 and up versions. But works well in python 3.6)
 
 This bot can:
 1) Talk.
