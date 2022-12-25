@@ -1,6 +1,8 @@
 # ZEGO-Bot
 Simple bot in cmd mode
 
+<img src="https://github.com/chenurawinrada/ZEGO-Bot/blob/main/zego.png">
+
 Requrements,
 1) hashlib
 2) colorama
